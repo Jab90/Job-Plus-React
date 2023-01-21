@@ -1,10 +1,12 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
+import Hero from '../components/Hero';
+import Sector from '../components/Sector';
 
-export default function Home() {
+export default function Home({ props }) {
   return (
     <>
-      <Navbar />
+      <Hero labelColor="Secondary" />
+      <Sector />
     </>
   );
 }
