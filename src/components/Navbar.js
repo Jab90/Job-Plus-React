@@ -181,7 +181,7 @@ export default function Navbar() {
             <IconButton
               size="small"
               component={Link}
-              to={'/search'}
+              to={'/profile'}
               color="inherit"
               edge="start"
             >
